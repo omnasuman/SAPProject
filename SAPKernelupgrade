@@ -1,0 +1,6 @@
+---
+- name: kernal update for SAP
+  hosts: all
+  tasks:
+  - name: start the kernal update
+    command: sh kernelupgrade_1.sh
